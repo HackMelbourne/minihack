@@ -4,15 +4,15 @@
 - Click on “New Application” on the top right
 - In the pop-up window, enter an application name, click the box and hit “Enter”
 - You should see the dashboard for the new application by now! On your left under “Setting”, go to “Bot” tab and create a bot. Here you can add an avatar, change name and add description for your bot. 
-- scroll down and copy the token. This is like the password to your bot so save it carefully as we will need to use it later in coding to get access to the bot. If you want to get a new token, you can always generate a new one here as well.
-- continue scrolling down to the “Privileged Gateway Intents” section and enable all three intents here. They allow your bot to read and respond to messages. 
+- Scroll down and copy the token. This is like the password to your bot so save it carefully as we will need to use it later in coding to get access to the bot. If you want to get a new token, you can always generate a new one here as well.
+- Continue scrolling down to the “Privileged Gateway Intents” section and enable all three intents here. They allow your bot to read and respond to messages. 
 
 
 
 
 ## Set Up Your Own Server
 > [!note]
-> If you already habe a server that you want to invite your bot into,  move on to step 3 :
+> If you already have a server that you want to invite your bot into,  move on to step 3 :
 
 - On Mobile: Go to the “Servers” tab on the bottom and 
 - On Mobile & Laptop: click on “+” button in the leftmost column -> select “Create My Own” -> “For me and my friends” -> “Create Server”
