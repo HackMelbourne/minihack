@@ -151,7 +151,7 @@ Now, you are able to add your own code and functions to your personal bot, have 
 # Extra Resource
 ### Python
 - Comand: https://discordpy.readthedocs.io/en/stable/ext/commands/commands.html
-= out bot: https://discord.com/oauth2/authorize?client_id=1233026847776837663&permissions=8&scope=bot 
+- our bot: https://discord.com/oauth2/authorize?client_id=1233026847776837663&permissions=8&scope=bot 
 ### JavaScript
 - CodeAcademy tutorial on building a Discord bot with js
 https://www.codecademy.com/article/build-a-discord-bot-with-node-js
