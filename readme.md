@@ -2,6 +2,7 @@
 ## Creating The Bot
 - Login to Discord Developer Portal via https://discord.com/developers/applications using your discord account info
 - Click on “New Application” on the top right
+![myImage]([https://github.com/HackMelbourne/minihack/tree/main/src/p1.jpeg](https://github.com/HackMelbourne/minihack/blob/main/src/p1.jpg))
 - In the pop-up window, enter an application name, click the box and hit “Enter”
 - You should see the dashboard for the new application by now! On your left under “Setting”, go to “Bot” tab and create a bot. Here you can add an avatar, change name and add description for your bot. 
 - Scroll down and copy the token. This is like the password to your bot so save it carefully as we will need to use it later in coding to get access to the bot. If you want to get a new token, you can always generate a new one here as well.
@@ -64,12 +65,7 @@ For Python: [LINK]
 
 ### Writing A Basic Bot
 - In bot.js, continue typing in the following code 
-
-
-
 - “messageCreate” is an event defined for the Client class in Discord Js and it is the case when a message is sent into the Discord server. After typing in the codes above, save the bot.js file and run it again in the terminal
-
-
 - Now when you type in “!Hello” in the Discord server, your bot should be able to greet you as “Hello (your_Discord_username)”  ^-^
 
 
@@ -81,7 +77,6 @@ With that done, let’s open up VS Code (Visual Studio Code). Go to the open fol
 
 ### Setting Up
 - Create a main file called main.py in our folder by right clicking and creating a new file.
-
 - Follow this syntax, the command_prefix can be anything you’d like, as it is just the syntax for commands for the bot when you are actually using it in discord.
 - For example, here we are using a very common prefix !, which for example, !play could be a command that allows you to search and play a song.
 
@@ -91,6 +86,21 @@ With that done, let’s open up VS Code (Visual Studio Code). Go to the open fol
 ### testing the bot
 
 - The syntax is bot.run(“Our unique token that we got from discord before”).
+```
+import discord
+from discord.ext import commands
+
+bot = commands.Bot(command_prefix = "!", intents=discord.Intents.all())
+
+@bot.event
+async def on_message(message):
+    if message.author == bot.user:
+        return
+    content_lower = message.content.lower()
+    if "deez" in content_lower or "nuts" in content_lower:
+        await message.channel.send("DEEZ NUTS!!! \nGOT'EM!!\n")
+bot.run("{BOT TOKEN GOES HERE}")
+```
 - Run our python file, it should return two lines, logging in using a statistic token, and that the Shard ID None has connected to Gateway.
 - If you’ve made it this far, goodjob! It's running successfully. 
 
@@ -108,4 +118,3 @@ Now, you are able to add your own code and functions to your personal bot, have 
 # Extra Resource
 - Comand: https://discordpy.readthedocs.io/en/stable/ext/commands/commands.html
 - https://www.youtube.com/watch?v=93DrbetB6oM
-- 
