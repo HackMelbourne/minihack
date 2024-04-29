@@ -1,6 +1,6 @@
-## Creating The Bot
 Submissions are due 11:59PM this Sunday (5 May).
 - [Submission Link](https://forms.gle/mgbHteNX18uX6D7N7)
+
 
 # Setting up your bot
 ## Creating The Bot
