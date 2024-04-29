@@ -27,10 +27,6 @@
 - Scroll to the bottom, copy the generated URL into a new browser window and hit “Enter”
 - Choose the server that you want to invite the bot into from the drop-down menu and continue -> authenticate -> done!
 ![myImage](https://github.com/HackMelbourne/minihack/blob/main/src/p3.jpg)
-# Setting Up Your Environment
-> [!note]
-> If you have a working code editor you can skip this part [LINK]
-
 
 # Coding Your Bot
 > [!important] 
